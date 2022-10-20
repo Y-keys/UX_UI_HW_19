@@ -684,3 +684,92 @@ a:hover {
         gap: 16px;
     }
 }
+
+/* CASE STUDY PAGE */
+
+.projectTOP {
+    padding: 5%;
+}
+.project-gridContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "project-grid1 project-grid2 project-grid3"
+    "project-grid1 project-grid4 project-grid5";
+    column-gap: 48px;
+}
+
+#project-grid1 {
+    grid-area: project-grid1;
+}
+
+#project-grid2 {
+    grid-area: project-grid2;
+}
+
+#project-grid3 {
+    grid-area: project-grid3;
+}
+
+#project-grid4 {
+    grid-area: project-grid4;
+}
+
+#project-grid5 {
+    grid-area: project-grid5;
+}
+
+.projectHeroImage {
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Styling for the js tabs on the case study page */
+.projectProcess div {
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  color: #161616;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: #161616;
+  padding: 5%;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: #86a9a3;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #2A4F4C;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding-left:48px;
+  /* border: 1px solid #ccc; */
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
