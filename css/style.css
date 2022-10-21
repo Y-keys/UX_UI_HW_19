@@ -174,14 +174,14 @@ p {
     }
 }
 
-/* .navItem {
+/* /* .navItem {
     padding-right: 24px;
-}
+} */
 
 a {
     text-decoration: none;
     color: inherit;
-} */ 
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
