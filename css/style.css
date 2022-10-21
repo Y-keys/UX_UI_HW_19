@@ -135,7 +135,7 @@ p {
 }
 
 /* header nav section*/
-nav {
+/* /* nav {
     width: 100%;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -154,13 +154,15 @@ nav {
     font-weight: 400;
     font-size: 18px;
     color: #161616;
-}
+} */
 
 .navLogo {
     width: 42px;
     text-align: center;
     animation: spin 5s;
     transform-origin: center center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 @keyframes spin {
@@ -172,14 +174,80 @@ nav {
     }
 }
 
-.navItem {
+/* .navItem {
     padding-right: 24px;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-}
+} */ 
+
+/* Add a black background color to the top navigation */
+.topnav {
+    /* background-color: #333; */
+    overflow: hidden;
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px 5% 24px 5%;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #161616;
+    text-align: center;
+    padding-right: 48px;
+    text-decoration: none;
+    line-height: 42px;
+  }
+
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    /* background-color: #ddd; */
+    color: #86A9A3;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    color: #86A9A3;
+  }
+
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 768px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      font-size: 32px;
+      color: #2A4F4C;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 768px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
 
 /* hero section */
 .hero {

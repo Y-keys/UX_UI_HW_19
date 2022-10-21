@@ -1,3 +1,15 @@
+//js function for top nav menu to be responsive
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+
 //js function for the study case page
 function openStep(evt, title) {
     // Declare all variables
