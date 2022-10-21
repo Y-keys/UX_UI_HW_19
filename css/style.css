@@ -698,6 +698,7 @@ a:hover {
     "project-grid1 project-grid2 project-grid3"
     "project-grid1 project-grid4 project-grid5";
     column-gap: 48px;
+    padding-bottom: 24px;
 }
 
 #project-grid1 {
@@ -720,8 +721,8 @@ a:hover {
     grid-area: project-grid5;
 }
 
-.projectHeroImage {
-    max-width: 90%;
+.projectHeroImage img {
+    max-width: 100%;
     margin: auto;
 }
 
@@ -737,6 +738,7 @@ a:hover {
   color: #161616;
   width: 30%;
   height: 300px;
+  margin-bottom: 160px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -772,4 +774,5 @@ a:hover {
   width: 70%;
   border-left: none;
   height: 300px;
+  margin-bottom: 160px;
 }
