@@ -758,8 +758,45 @@ a:hover {
 
 /* CASE STUDY PAGE */
 
+/* Breadcrumb styling */
+/* Style the list */
+ul.breadcrumb {
+  font-family: 'Albert Sans';
+  padding: 10px 5%;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #161616;
+  content: ">";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #161616;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #86A9A3;
+  text-decoration: underline;
+}
+
+.active {
+    color: #86A9A3;
+}
+
 .projectTOP {
-    padding: 5%;
+    padding: 24px 5%;
 }
 .project-gridContainer {
     display: grid;
