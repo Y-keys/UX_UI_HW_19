@@ -15,7 +15,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("myTopnav").style.top = "0";
   } else {
-    document.getElementById("myTopnav").style.top = "-80px";
+    document.getElementById("myTopnav").style.top = "-120px";
   }
   prevScrollpos = currentScrollPos;
 }
