@@ -183,6 +183,10 @@ a {
     color: inherit;
 }
 
+#resume-btn a {
+    color:white;
+}
+
 /* Add a black background color to the top navigation */
 #myTopnav {
     /* background-color: #333; */
