@@ -1,3 +1,8 @@
+// //js function for the animated hamburger menu
+// function menuFunction(x) {
+//   x.classList.toggle("change");
+// }
+
 //js function for the responsive top nav menu on each page
 function myFunction() {
   var x = document.getElementById("myTopnav");
