@@ -210,7 +210,7 @@ a {
     text-decoration: none;
     line-height: 42px;
   }
-  
+
   /* Change the color of links on hover */
   #myTopnav a:hover {
     /* background-color: #ddd; */
@@ -827,7 +827,7 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
-.active {
+.breadcrumb .active {
     color: #86A9A3;
 }
 
